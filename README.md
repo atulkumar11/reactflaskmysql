@@ -1,4 +1,4 @@
-# reactflaskmysql 
+# react_flask_mysql 
 
 To accomplish this task:
 
