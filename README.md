@@ -1,10 +1,42 @@
-# react_flask_mysql 
+# Project Task: `react_flask_mysql` Integration
 
-To accomplish this task:
-1. Understand the User interface (REACT based)  in this github code.
-3. create database and its tables for the relevant fields in mysql, based on the user interface.
-4. create flask app which would connect mysql tables and the user interface (REACT) for the given system. The Database must be able to be entered, and modified if needed.
-5. Must use SQLalchemy. Use flask blue print, if you can. Try to keep datbase models, routes separate from the main flask app file.
-6. The database address will be shared once you are ready to solve the problem.
-7. Show us a working web application with a flask server running on your computer.
-8. Show us screenshots of the filled mysql tables after the user fresh registration and modification after a fresh registration.
+## 🎯 Objective
+Develop a fully functional web application by integrating a **React-based user interface** with a **MySQL database** using a **Flask backend**.
+
+---
+
+## 📋 Task Breakdown
+
+### 1. Understand the Frontend (React)
+- Review the provided GitHub repository containing the React interface.
+- Identify the relevant fields and data flows that interact with the backend.
+
+### 2. Design and Create the MySQL Database
+- Create the required database schema based on the user interface.
+- Define tables to store user data and support registration, login, and profile modification.
+
+### 3. Develop Flask Backend with SQLAlchemy
+- Create a Flask application that connects the React frontend with the MySQL database.
+- Use **SQLAlchemy** for database ORM.
+- Organize the backend using **Flask Blueprints** to separate:
+  - Database models
+  - API routes
+  - Main application logic
+
+### 4. Functional Requirements
+- Enable full CRUD operations for user data.
+- Ensure that:
+  - Users can register and their data is stored in the database.
+  - Users can modify their details, and changes are reflected in the database.
+
+### 5. Demonstration Requirements
+- Run the Flask server locally.
+- Show a working integration with the React frontend.
+- Provide **screenshots** of:
+  - MySQL tables after a **new user registration**
+  - MySQL tables after **modifying** an existing user
+
+---
+
+## 🛠️ Note
+- The MySQL database address and access credentials will be provided once you're ready to proceed with implementation.
