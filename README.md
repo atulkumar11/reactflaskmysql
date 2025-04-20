@@ -38,5 +38,4 @@ Develop a fully functional web application by integrating a **React-based user i
 
 ---
 
-## 🛠️ Note
-- The MySQL database address and access credentials will be provided once you're ready to proceed with implementation.
+
